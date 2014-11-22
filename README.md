@@ -1,4 +1,4 @@
-# Forever Web UI 
+# Forever Web UI
 [![Build Status](https://secure.travis-ci.org/FGRibreau/forever-webui.png)](http://travis-ci.org/FGRibreau/forever-webui)
 [![Deps](https://david-dm.org/FGRibreau/forever-webui.png)](https://david-dm.org/FGRibreau/forever-webui)
 [![Version](http://badge.fury.io/js/forever-webui.png)](https://david-dm.org/FGRibreau/forever-webui)
@@ -36,7 +36,13 @@ and browse ```http://127.0.0.1:8085```
 
 Start NodeJS processes with forever cli and manage them via a web interface.
 
-** Please note that you need to start Forever Console via sudo, 
+To name the process in the UI use the following syntax.
+
+```
+sudo forever start --uid "Name that I Want" server.js;
+```
+
+** Please note that you need to start Forever Console via sudo,
 because if you are planning to run node processes thru sudo,
 they will be visible to forever, via sudo only. [\[1\]][1]
 

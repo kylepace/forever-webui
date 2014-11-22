@@ -2,14 +2,14 @@
 <html>
 <head>
   <title>Forever Web UI v</title>
-  <link rel="stylesheet" href="/dist/foreverui.min.css" /> 
+  <link rel="stylesheet" href="/dist/foreverui.min.css" />
 </head>
     <body>
         <div class="container">
             <div class="hero-unit">
                 <h1>Forever Web UI <small>beta</small></h1>
                 <p>Simple web UI for efficient nodejs administration</p>
-                <div class="menubar left">Process count 
+                <div class="menubar left">Process count
                     <span id="process-count">0</span>
                 </div>
                 <div class="menubar center">
@@ -37,7 +37,7 @@
         <script id="process-tmpl" type="text/html">
             <div class="span11">
               <h2>
-                {{file}}
+                {{uid}} - {{file}}
                 <small>{{time}}</small>
               </h2>
             </div>
