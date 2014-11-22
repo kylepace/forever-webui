@@ -39,7 +39,7 @@ Start NodeJS processes with forever cli and manage them via a web interface.
 To name the process in the UI use the following syntax.
 
 ```
-sudo forever start --uid "Name that I Want" server.js;
+sudo forever start --uid "Name that I Want" server.js
 ```
 
 ** Please note that you need to start Forever Console via sudo,
